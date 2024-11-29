@@ -1,8 +1,4 @@
 import React from "react";
-import Weather from "./Weather";
-
-import "./App.css";
-
 import "./App.css";
 
 export default function App() {
@@ -57,6 +53,24 @@ export default function App() {
             </div>
           </div>
         </div>
+        <footer>
+          This project was coded by Elena and is{" "}
+          <a
+            href="https://github.com/lenmelon/weather-react"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            href="https://delightful-creponne-36855e.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Netlify
+          </a>
+        </footer>
       </div>
     </div>
   );
